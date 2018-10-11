@@ -8,7 +8,7 @@ def get_min_without_arguments():
     """
         raise TypeError exception with message
     """
-    raise "No arguments."
+    raise TypeError("No arguments.")
 
 def get_min_with_one_argument(x):
     """
